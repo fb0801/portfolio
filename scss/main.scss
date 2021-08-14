@@ -14,8 +14,10 @@
  
  footer {
      /* Add a gray background color and some padding to the footer */
-    background-color: #f2f2f2;
+    background-color: $primary-color;
     padding: 25px;
+    padding-top: 20px;
+    color: $secondary-color;
   }
 
 h6{
@@ -24,4 +26,15 @@ h6{
 
 .my_projects{
     background-color: $third-color;
+}
+
+.contact_me{
+    @extend .my_projects;/*allow you to extend attribute from other class to use in another class*/
+    padding-bottom: 10em;
+}
+
+.gap{
+    background-color: #f2f2f2;
+    padding: 25px;
+    padding-top: 20px;
 }
