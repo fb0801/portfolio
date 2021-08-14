@@ -1,0 +1,27 @@
+/*import these files to be used in the main file*/
+@import 'config';
+
+
+
+
+
+.navbar {
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+ 
+ footer {
+     /* Add a gray background color and some padding to the footer */
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+h6{
+    font-weight: 400;   
+}
+
+.my_projects{
+    background-color: $third-color;
+}
