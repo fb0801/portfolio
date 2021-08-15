@@ -1,5 +1,6 @@
 /*import these files to be used in the main file*/
 /*different colours to use*/
+/*Media queries*/
 .navbar {
   /* Remove the navbar's default margin-bottom and rounded borders */
   margin-bottom: 0;
