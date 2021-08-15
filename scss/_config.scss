@@ -8,15 +8,41 @@ $forth-color:#ff652f;
 /*Media queries*/
 @mixin media-sm {
     @media screen and  (min-width:600px) {
-        &__name {
+        .__name {
             color:$forth-color;
         }
-
+        .anime_addict{
+            width: 150px;
+            height: 120px;
+        }
+        .col-sm-3{
+            width: 40%;
+        }
+        .row{
+            width: 50%;
+        }
     }
 }
 
 @mixin media-med {
-    @media screen and (min-width:750) {
-        
+    @media screen and (min-width:800px) {
+        img{
+            height: 3em;
+            width: 3em;
+        }
+        .anime_addict{
+            width: 150px;
+            height: 70px;
+        }
     }
+}
+
+@mixin media-med-2 {
+    @media screen and (min-width:750px){
+        
+        .col-sm-3{
+            width: 15%;
+        }
+    }
+    
 }

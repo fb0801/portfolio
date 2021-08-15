@@ -25,10 +25,10 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li ><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="about_me">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#my_skill">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       
     </div>
@@ -37,7 +37,7 @@
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Farhan <span class="home__name--last">Portfolio</span></h1>      
+    <h1 class="__name">Farhan <span class="home__name--last">Portfolio</span></h1>      
     <p>Welcome to my Portfolio</p>
   </div>
 </div>
@@ -45,31 +45,41 @@
 <div class="about_me">
     <div class="container-fluid bg-3 text-center"> 
 <h3>About Me</h3>
+<p>I am a IT graduate ready to come onto the market</p>
 </div>
 </div>
 
 <div class="my_projects">
 <div class="container-fluid bg-3 text-center">    
-  <h3>My projects</h3><br>
+  <h3 id="project">My projects</h3><br>
   <div class="row">
     <div class="col-sm-3">
-        <h6>Final year project</h6>
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
+        <h5>Final year project</h5>
+      <a href="https://github.com/fb0801/JOAT"> <img src="img/logo2.jpg" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+      <p>Finance web application</p>
+      </div>
+
     <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src=""" class="img-responsive" style="width:100%" alt="Image">
+      <h5>Masterclasses web application</h5>
+      <a href="https://github.com/fb0801/MasterClasses"><img src="img/masterclasses_2.jpg" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+      <p>web application made using PHP</p>
     </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="" class="img-responsive" style="width:100%" alt="Image">
-    </div>
+
+    <div class="col-sm-3">
+      <h5>Drupal website</h5> 
+      <a href="https://dev-farhandrupalsite.pantheonsite.io/"> <img src="img/drupal.png" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+      <p>A drupal website i made as part of a assignment at university</p>
+      </div>
+
     <div class="col-sm-3">
       <p>Some text..</p>
       <img src="" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </div>
+
 </div><br>
 
 <div class="container-fluid bg-3 text-center">    
@@ -77,9 +87,11 @@
     
     <div class="col-sm-3">
         <h6>Anime website</h6> 
-      <p>Some text..</p>
-      <img src="" class="img-responsive" style="width:100%" alt="Image">
-    </div>
+      <a href="https://github.com/fb0801/AnimeWebsite"> <img class="anime_addict" src="img/AA_logo.jpg" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+      <p>A anime website using different web technologies</p>
+
+      </div>
     <div class="col-sm-3"> 
       <p>Some text..</p>
       <img src="" class="img-responsive" style="width:100%" alt="Image">
@@ -95,23 +107,30 @@
 
     <div class="container-fluid bg-3 text-center"> 
 
-<h3>My skills</h3>
+<h3 id="my_skil" class="my_skills">My skills</h3>
 <div class="my_skills_container">
 <ul>
+  <div class="col-sm-3"> 
     <li>HTML</li>
-    <li>CSS</li>
-    <li>UML</li>
-    <li>PHP</li>
-    <li>Bootstrap</li>
+    </div>
+    <div class="row">
+    <div class="col-sm-3"><li>CSS</li></div>
+    
+    <div class="col-sm-3"><li>UML</li></div>
 
-</ul></div></div>
+    <div class="col-sm-3"><li>PHP</li></div>
+    <div class="row">
+    <div class="col-sm-3"><li>Bootstrap</li></div>
+    <li>Drupal</li>
+</ul></div></div></div>
 
 
 
 
 <div class="contact_me">
     <div class="container-fluid bg-3 text-center"> 
-<h3>Contact Me</h3>
+<h3 id="contact">Contact Me</h3>
+<p>To contact me, message me on GitHub or Twitter</p>
 </div>
 </div>
 
