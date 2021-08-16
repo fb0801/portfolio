@@ -87,3 +87,44 @@ h6{
 
 }
 
+
+@mixin media-sm {
+    .__name {
+        color:$forth-color;
+    }
+    .anime_addict{
+        width: 150px;
+        height: 120px;
+    }
+    .col-sm-3{
+        width: 40%;
+    }
+    .row{
+        width: 50%;
+    }
+}
+
+
+@mixin media-med{
+    img{
+        height: 3em;
+        width: 3em;
+    }
+    .anime_addict{
+        width: 150px;
+        height: 70px;
+    }
+}
+
+@mixin media-med-2 {
+    .col-sm-3{
+        width: 15%;
+    }
+    .container-fluid{
+        width: 130px;
+        
+    }.ul {
+            width: 20px !important;
+    }
+
+}
